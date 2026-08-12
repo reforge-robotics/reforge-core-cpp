@@ -6,8 +6,8 @@ supported Ubuntu machines.
 ## Supported Platforms
 
 ```text
-Repository setup: Ubuntu 20.04 focal, 22.04 jammy, 24.04 noble; amd64
-Joint Tracker C++ SDK: Ubuntu 20.04 or newer; amd64
+Repository setup: Ubuntu 20.04 focal, 22.04 jammy, 24.04 noble; amd64 or arm64
+Joint Tracker C++ SDK: Ubuntu 20.04 or newer; amd64 or arm64
 Shaper C++ SDK: Ubuntu 20.04 or newer; amd64
 reforge-core bundle: Ubuntu 20.04 or newer; amd64
 ```
@@ -15,6 +15,10 @@ reforge-core bundle: Ubuntu 20.04 or newer; amd64
 The setup script exits with an error on unsupported operating systems
 before it writes an APT source. Individual package dependencies then
 enforce component-specific platform support.
+
+On arm64, install `reforge-core-joint-tracker` directly. The Shaper
+package and `reforge-core` bundle remain amd64-only until their arm64
+release paths are separately validated.
 
 ## Install Reforge Core C++ SDK Packages
 

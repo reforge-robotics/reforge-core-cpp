@@ -10,6 +10,7 @@ SUPPORTED_OS_ID="ubuntu"
 SUPPORTED_VERSION_IDS="20.04 22.04 24.04"
 SUPPORTED_CODENAMES="focal jammy noble"
 SUPPORTED_DESCRIPTION="Ubuntu 20.04 (focal), 22.04 (jammy), or 24.04 (noble)"
+SUPPORTED_ARCHITECTURES="amd64 arm64"
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "setup.sh must run as root." >&2
@@ -59,6 +60,17 @@ if [ -n "${OS_CODENAME}" ]; then
 fi
 
 ARCHITECTURE="$(dpkg --print-architecture)"
+ARCHITECTURE_SUPPORTED=0
+for SUPPORTED_ARCHITECTURE in ${SUPPORTED_ARCHITECTURES}; do
+    if [ "${ARCHITECTURE}" = "${SUPPORTED_ARCHITECTURE}" ]; then
+        ARCHITECTURE_SUPPORTED=1
+        break
+    fi
+done
+if [ "${ARCHITECTURE_SUPPORTED}" != "1" ]; then
+    echo "Reforge APT setup currently supports only architecture(s): ${SUPPORTED_ARCHITECTURES}. Detected: ${ARCHITECTURE}." >&2
+    exit 1
+fi
 
 install -d -m 0755 /usr/share/keyrings /etc/apt/sources.list.d
 
@@ -79,6 +91,11 @@ printf 'deb [arch=%s signed-by=%s] %s %s %s\n' \
 echo "Configured Reforge APT repository: ${BASE_URL} ${SUITE} ${COMPONENT}"
 echo "Next commands:"
 echo "  sudo apt update"
-echo "  sudo apt install reforge-core-joint-tracker"
-echo "  sudo apt install reforge-core-shaper"
-echo "  sudo apt install reforge-core"
+if [ "${ARCHITECTURE}" = "arm64" ]; then
+    echo "  sudo apt install reforge-core-joint-tracker"
+    echo "Note: arm64 support currently applies to reforge-core-joint-tracker only."
+else
+    echo "  sudo apt install reforge-core-joint-tracker"
+    echo "  sudo apt install reforge-core-shaper"
+    echo "  sudo apt install reforge-core"
+fi
