@@ -80,9 +80,5 @@ echo "Configured Reforge APT repository: ${BASE_URL} ${SUITE} ${COMPONENT}"
 echo "Next commands:"
 echo "  sudo apt update"
 echo "  sudo apt install reforge-core-joint-tracker"
-if [ "${OS_VERSION_ID}" = "24.04" ] || [ "${OS_CODENAME}" = "noble" ]; then
-    echo "  sudo apt install reforge-core-shaper"
-    echo "  sudo apt install reforge-core"
-else
-    echo "  # reforge-core-shaper and reforge-core currently require Ubuntu 24.04"
-fi
+echo "  sudo apt install reforge-core-shaper"
+echo "  sudo apt install reforge-core"

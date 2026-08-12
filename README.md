@@ -8,7 +8,8 @@ supported Ubuntu machines.
 ```text
 Repository setup: Ubuntu 20.04 focal, 22.04 jammy, 24.04 noble; amd64
 Joint Tracker C++ SDK: Ubuntu 20.04 or newer; amd64
-Shaper C++ SDK and reforge-core bundle: Ubuntu 24.04 noble; amd64
+Shaper C++ SDK: Ubuntu 20.04 or newer; amd64
+reforge-core bundle: Ubuntu 20.04 or newer; amd64
 ```
 
 The setup script exits with an error on unsupported operating systems
@@ -75,6 +76,20 @@ Expected demo output:
 Reforge Shaper C++ demo complete.
 ```
 
+Build and run the complete Shaper backend demo:
+
+```bash
+cmake -S /usr/share/reforge-core-shaper/examples/backend -B /tmp/reforge-shaper-backend-demo
+cmake --build /tmp/reforge-shaper-backend-demo --parallel
+/tmp/reforge-shaper-backend-demo/reforge_shaper_backend_demo
+```
+
+Expected demo output:
+
+```text
+Reforge Shaper backend demo complete.
+```
+
 Build and run the Joint Tracker demo shipped with the SDK:
 
 ```bash
@@ -102,6 +117,13 @@ find_package(ReforgeShaper CONFIG REQUIRED)
 
 add_executable(reforge_shaper_app main.cpp)
 target_link_libraries(reforge_shaper_app PRIVATE ReforgeShaper::runtime)
+```
+
+For complete Shaper backend applications, link the backend target:
+
+```cmake
+find_package(ReforgeShaper CONFIG REQUIRED)
+target_link_libraries(reforge_shaper_app PRIVATE ReforgeShaper::backend)
 ```
 
 For Joint Tracker:
