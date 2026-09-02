@@ -5,18 +5,19 @@ supported Ubuntu machines.
 
 ## Supported Platforms
 
-```text
-Repository setup: Ubuntu 20.04 focal, 22.04 jammy, 24.04 noble; amd64 or arm64
-Joint Tracker C++ SDK: Ubuntu 20.04 or newer; amd64 or arm64
-Shaper C++ SDK: Ubuntu 20.04 or newer; amd64
-reforge-core bundle: Ubuntu 20.04 or newer; amd64
-```
+| Package or setup | Ubuntu 20.04 focal | Ubuntu 22.04 jammy | Ubuntu 24.04 noble | amd64 | arm64/aarch64 |
+| --- | --- | --- | --- | --- | --- |
+| Repository setup | Supported | Supported | Supported | Supported | Supported |
+| Joint Tracker C++ SDK | Supported | Supported | Supported | Supported | Supported |
+| Shaper C++ SDK | Supported | Supported | Supported | Supported | Not published yet |
+| `reforge-core` bundle | Supported | Supported | Supported | Supported | Not published yet |
 
 The setup script exits with an error on unsupported operating systems
 before it writes an APT source. Individual package dependencies then
 enforce component-specific platform support.
 
-On arm64, install `reforge-core-joint-tracker` directly. The Shaper
+On arm64, install `reforge-core-joint-tracker` directly. The aarch64
+Joint Tracker package uses the native arm64 library paths. The Shaper
 package and `reforge-core` bundle remain amd64-only until their arm64
 release paths are separately validated.
 
@@ -154,6 +155,8 @@ The package installs SDK files under:
 /usr/lib/x86_64-linux-gnu/cmake/ReforgeJointTracker
 /usr/share/reforge-core-shaper/examples
 /usr/share/reforge-core-joint-tracker/examples
+/usr/lib/aarch64-linux-gnu
+/usr/lib/aarch64-linux-gnu/cmake/ReforgeJointTracker
 ```
 
 ## Upgrade

@@ -1,5 +1,24 @@
 Package: reforge-core-joint-tracker
 Architecture: amd64
+Version: 2.0.15-1
+Priority: optional
+Section: libdevel
+Maintainer: Reforge Robotics <support@reforgerobotics.com>
+Depends: libc6 (>= 2.31), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Recommends: cmake, g++
+Filename: pool/main/r/reforge-core-joint-tracker/reforge-core-joint-tracker_2.0.15-1_amd64.deb
+Size: 761056
+MD5sum: 081dd0fb9a3811475678158cfa4f7a5e
+SHA1: 7f8558f18c9bcbb59885eb5df782d27d8f2d4ada
+SHA256: ec43e0aac27706b43329cd1dbee43278c6ee01a749ca42c40971cf6f3021fa64
+SHA512: 2652d2ab0cedd2527ca2f1d798b6504322d303eb4e80e11644646752305c1f59c6a11d348346c408ba1f7a575335e7456c09c44f258e2457d1355bbfda0e36e6
+Description: Reforge Joint Tracker C++ SDK
+ Native STL headers, shared library, CMake package files, and a
+ hardware-free driver-loop demo for the Reforge Joint Tracker C++
+ SDK.
+
+Package: reforge-core-joint-tracker
+Architecture: amd64
 Version: 2.0.9-903
 Priority: optional
 Section: libdevel
@@ -73,6 +92,42 @@ Description: Reforge Joint Tracker C++ SDK
  Native STL headers, static library, CMake package files, and a
  hardware-free driver-loop demo for the Reforge Joint Tracker C++
  SDK.
+
+Package: reforge-core-shaper-ros2
+Architecture: amd64
+Version: 2.0.15-1
+Priority: optional
+Section: libs
+Maintainer: Reforge Robotics <support@reforgerobotics.com>
+Depends: reforge-core-shaper (= 2.0.15-1), ros-jazzy-builtin-interfaces, ros-jazzy-trajectory-msgs
+Recommends: cmake, g++
+Filename: pool/main/r/reforge-core-shaper-ros2/reforge-core-shaper-ros2_2.0.15-1_amd64.deb
+Size: 29446
+MD5sum: cb0e7f55110259393bd3a2b85fda1d3c
+SHA1: b7853d55066a944d0deebc3d9391a8c4c38803f4
+SHA256: ed0d6e9a00c181cb0b1e7d56b21ba06e88da8a29f800eafa12e964bd6b56c463
+SHA512: 2fcf372e671af5db33baf9fe5f3f101272d949476072c7294a6c1419c7540b029dd6952aa147998a667f3f8b761506bd13fac9ca59c2a3d014b4e63c6a9c7d5e
+Description: ROS 2 adapter for the Reforge Shaper C++ SDK
+ Optional JointTrajectory message boundary for the installed
+ Reforge Shaper native backend.
+
+Package: reforge-core-shaper
+Architecture: amd64
+Version: 2.0.15-1
+Priority: optional
+Section: libs
+Maintainer: Reforge Robotics <support@reforgerobotics.com>
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.2), libgomp1 (>= 4.9), libstdc++6 (>= 9), libeigen3-dev, zlib1g
+Recommends: cmake, g++
+Filename: pool/main/r/reforge-core-shaper/reforge-core-shaper_2.0.15-1_amd64.deb
+Size: 8294256
+MD5sum: 19e132d5bccabdb651edce4b1c4dae2f
+SHA1: 5d9a32cfbe8505269b571157aeb8cedbe4bd9a7d
+SHA256: 92cd845e06aebf4ee1566a216e1355e6f7813a7b9f3283c71732fbcc84926f01
+SHA512: 6fadc4cfcf7e1371eb82dacd9020d12a3db8b597f962b36c64c9f601bf0f7ae849ea83e86d0278518ea15008d984674a57d4409550b9e4b10ba1ad8f49c77a1f
+Description: Reforge Shaper C++ SDK
+ Native headers, shared libraries, CMake package files, and a
+ hardware-free demo for the Reforge Shaper C++ SDK.
 
 Package: reforge-core-shaper
 Architecture: amd64
@@ -271,6 +326,23 @@ SHA512: 9e8ebecc663190557b785cddc0dfa075ffb5305e96f474fafe750734e5e62064657e7077
 Description: Reforge Shaper C++ SDK
  Native headers, shared libraries, CMake package files, and a
  hardware-free demo for the Reforge Shaper C++ SDK.
+
+Package: reforge-core
+Architecture: amd64
+Version: 2.0.15-1
+Priority: optional
+Section: metapackages
+Maintainer: Reforge Robotics <support@reforgerobotics.com>
+Depends: reforge-core-shaper (= 2.0.15-1), reforge-core-joint-tracker (= 2.0.15-1)
+Filename: pool/main/r/reforge-core/reforge-core_2.0.15-1_amd64.deb
+Size: 1404
+MD5sum: 9e77e142bccd6d91796daff43ce4921d
+SHA1: 2a2f7e328219c089791b2914dc9839933dcde239
+SHA256: 9f1a38d2c19983e883a6a6a69e88926cede42418177736af9ed9033ffc92549b
+SHA512: e4d8ee7f62c3195edb1a419065c4eacc6a3610a307c87cf4fc4fc53315f37a8d49693e4a677a6d26f82445ec5955d8c1822761d0e3a849b4a13ee92c0ecb56dd
+Description: Reforge Robotics Core SDK
+ Meta package that installs the matching Reforge Core SDK
+ packages for one release version.
 
 Package: reforge-core
 Architecture: amd64
