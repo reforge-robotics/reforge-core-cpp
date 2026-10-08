@@ -4,44 +4,44 @@ Hash: SHA512
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Mon, 05 Oct 2026 07:45:27 +0000
+Date: Thu, 08 Oct 2026 04:30:22 +0000
 Description: Reforge Robotics package repository
 Label: Reforge Robotics
 Origin: Reforge Robotics
 Suite: stable
 MD5Sum:
- a7a572a10e56b254dcd1fcdeafe2784c            58803 main/binary-amd64/Packages
- b27e3dabe34ad83648c2c4e1b4d0e98a            14257 main/binary-amd64/Packages.gz
- 7a58db1abe635d3bace4a0493b27aa66            10952 main/binary-arm64/Packages
- e42c8c63353a9d0b4cd6c2ffb02c489c             2769 main/binary-arm64/Packages.gz
+ 443a320657ef4301d3763f23b381e1da            62058 main/binary-amd64/Packages
+ 2952310ce1a34e552aac0a8134be75a2            14991 main/binary-amd64/Packages.gz
+ f0a207a2fdb3008540f20f198cae7cd9            11793 main/binary-arm64/Packages
+ 9afc0d9810f36d3fcca3862327ab3a1a             2948 main/binary-arm64/Packages.gz
 SHA1:
- a36838d98b73967c69d7ef58d46b5fd7d885aa34            58803 main/binary-amd64/Packages
- ed0bdfa875a0bc93a99f381862361e745980c283            14257 main/binary-amd64/Packages.gz
- 37182e1d8f13aa613414b655e83b65c29a59b0f4            10952 main/binary-arm64/Packages
- f4642424e0d5ab8f3496c53d2f61d3dbaa5260ba             2769 main/binary-arm64/Packages.gz
+ a95b59a64cd496dc49681983f29422e881e39618            62058 main/binary-amd64/Packages
+ 9085771b8dfac5e72224ad9cf33e51eae3765d13            14991 main/binary-amd64/Packages.gz
+ fba830236d0ed95d07383747efedc38cb0f89755            11793 main/binary-arm64/Packages
+ 960d14e9c7bb9ae6822d200c3a115e4a7a2b2896             2948 main/binary-arm64/Packages.gz
 SHA256:
- 7eb08f65b9e90387e2a9b31246cc10fa03ba249b3e22693be067e88d6c5cb2fe            58803 main/binary-amd64/Packages
- dffdb19b5b41ee856b70849426dd4c99822b6bfee3f834519ce9d498e3e3fff4            14257 main/binary-amd64/Packages.gz
- b0510dd18791372c9f56782b9f215241ab1d8b08acd02471a89c6066943f1d25            10952 main/binary-arm64/Packages
- 48a7e8a7b98c1b0cedab9d42352770ba0ebd9e57ccad4bb89a9113aaa22aa470             2769 main/binary-arm64/Packages.gz
+ 127e468e5ca09c10f40020fb519c8aed0167daffd84b057884356d7e7f67a886            62058 main/binary-amd64/Packages
+ 242008d966c46b932dd466b084cd968d3b4e5e4033a6294d660ab7fa34973f5b            14991 main/binary-amd64/Packages.gz
+ c16cc329a09fc3dfeb466910fb7e24ff51c46a2547042c0cabb33646f93a1e1c            11793 main/binary-arm64/Packages
+ 8bb01bc4f9c5f5afbca5e003b786a782376f528462edf93f597f697ba8fabd5a             2948 main/binary-arm64/Packages.gz
 SHA512:
- 2295b87db392472209ec2c908185b7ec713113d7b749e97d5277cee83fa7657f9484c9102d60294c7b97387d568581768512f6fc1d8f4c6c2e69f9de717df24b            58803 main/binary-amd64/Packages
- 604151a8de3e9d9184dfa4d98dc5ef66fe3900586eb2b216dad357d8fabe79fb5c606a72108b76e5988ad3725bde71c8db1faa26bd8977a3e3319a19dca0ccce            14257 main/binary-amd64/Packages.gz
- edc4eeafc17c568aeb8ab92bf4c3d3630e4650262e77817761732245525b2b45d0f9fdc6db941e84dc9b0046d4863459840344b6d787b13653b30c8cd2d906e1            10952 main/binary-arm64/Packages
- a1f069756af6f8b62c64a98b58ad61b4174d9f5f68ce8c4fa354e71b339ffc2d209284e3471f078248820c2e3ed593d150325eb830df963e12b28f9a78db9d22             2769 main/binary-arm64/Packages.gz
+ 3048aa31da51eef1f9c676a1228877cbbd56ca27df35bbc9dc3dd0d59b755bc56558b5b31a4831db2fd234b0e705cd59143dc5738e24d0f141c0f200ccc9883e            62058 main/binary-amd64/Packages
+ a6b0aa8c119bbf2db8ea6358a6320da4aa5917d7f34ef15f90ec0d43bf25997efdc0a12202c6a339286cebbfedcecf868c61c48d90870b4039cce18b77c2fabe            14991 main/binary-amd64/Packages.gz
+ a555994f0223f6b5cf10da5032e5095dcb7c225a5a18d6a6c43e9a9fbfa941741dd844a0cfd2742393bf589d936d91298925ca9a15e43a7c50b400d8c1e2aead            11793 main/binary-arm64/Packages
+ 1bdc147f7361832bbcb7a00fd3a45460b71d6d77bc203b58ca70b63f48f9c2f61dd6825b9dfc732d4e540f55819243890e9e07c8c65590fdd205dd56a3520f4e             2948 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEiajimtAaGHXVJexejnL7LPS07wwFAmrDVbUACgkQjnL7LPS0
-7ww+3w/+I/fHijOBdx7qHeX+npl55UnTOt+dGxOteglT0ajUOK41AItCVYOp5fU5
-589oGyB27EXXtEzVWPa1EOz91Ebe9H+Kg+HVa3ddTYKeJEs6xs9AFBigqO2wHUlw
-1qQAHEC3F40xz3E9mpUyZ23CtWDAWIQPtdmvAuKNqKy70G+LG1Emg6hw/gC+EYSx
-JNSs1L+K/YM0MXdoK7N9dUcjMyKbWqvm9z0bo4vwCMIdURhUKLsSMkFQxfT5D5g5
-f91RcNg1IYYUW3ZUf3EM8hty9VnHxQyb38NZr4YBiefZPFyu0VofdrAy0Uyx4EoQ
-VcMncZgLsJsJA7d9NoOV5R+6Eml4Z/ui6BMr7LGna/o78h+5RxT3drdBpZDwPmIB
-w1pxmLroLzaScweJPXWeIrY2HtxtjqkuMuLz53qoWUzAz6DLRICQ1yixti3eRPCU
-n70Y298hEbbcSJ51dJ186P+f/5VFyhOP0ELKIVKdMK72U0nXm9CEPI/C3wEEFDlT
-LCiWielvn6IWTHG4gl/73xvZQxjSae590W8ktgfweOVqzRJ3M0Tol6bOGAV9uHGk
-ICnxqWtIhrIiDtWaSuCGUlrNhUnUxzM3v2AtiKqvghFgqNkOiSqy8Tf/cEITyH34
-NdZRpzvujSWwBJoDf87ArmbAFq41qplPNm0ADLWsKvD1kHlA3PA=
-=GjRb
+iQIzBAEBCgAdFiEEiajimtAaGHXVJexejnL7LPS07wwFAmrHHH0ACgkQjnL7LPS0
+7wxrvQ//SDZu5QZGL6aDcQ9hoiM1usiNt7icvGUV7OqNmrbbHfD/KXwBaJJXQWWN
+3MHCc8PC6RvE22hKvlmcjBqOSVfHl1wnWNXDhZg8TkvRzQO7M3ICLEbuwQvDwYPm
++aWjBqONuUUkz68TsMgA3ghLbT60RIuZ3VZipx5YLbr9jY5lHh2TlQDwz/pmHbCQ
+uA3BNnRF99AnzxQwryOkQxXNVL/3gAQGAF0wXHXlSfy/+QO5r3g8fSQVOmCtJw02
+BashzBPrho0I6cEhTZQbAEh4Ivh3lED0k3/YOnqjlkwoO+fzCRXgok7JJN3/2ZeN
+toe2ZwSXqzOb5COqna+QtOXs1p/FwLHq90Drb1tOs+UUD0P5Thm2iOh5LaSBpzFh
+Su9Y6vK6RxUy+NlI9vrfequ9rSAtxKL6oJg++4Ti8beu7a9MWwDiLENi7LtOC/lN
+HrtPupa68fuBGbwezx9JR1MDSBKyMEvP3WCLN8urW6Y2srXFP+LaxiapUUOVOhJo
+X7mukX6DNiANqqVMP2VrWn/k0P0apqnk/9aDDnxU0r1baUjIulCEEh194cMdKXP0
+wFz0Hg2DfgbKmXuXBncId+5mESdV0hdQM76bokIh3IFCPWuwZjc9fcU2MJ5w/cot
+XEJiFOVfQH2OpdaIC1wFlUjAN0jMHRcCm8bhht4nlErKNq3GcxY=
+=KjlT
 -----END PGP SIGNATURE-----

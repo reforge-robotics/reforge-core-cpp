@@ -244,3 +244,22 @@ Description: Reforge Joint Tracker C++ SDK
  Native STL headers, shared library, CMake package files, and a
  hardware-free driver-loop demo for the Reforge Joint Tracker C++
  SDK.
+
+Package: reforge-core-joint-tracker
+Architecture: arm64
+Version: 3.0.4-1
+Priority: optional
+Section: libdevel
+Maintainer: Reforge Robotics <support@reforgerobotics.com>
+Depends: libc6 (>= 2.31), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Recommends: cmake, g++
+Filename: pool/main/r/reforge-core-joint-tracker/reforge-core-joint-tracker_3.0.4-1_arm64.deb
+Size: 700784
+MD5sum: f5d53ca208e379328b0ce24e51a80ae2
+SHA1: 4f952dc1e20078c8385293dd16774db021d5ecb4
+SHA256: e81ca1ae948551e42c4a3e732cfcfa80fa9454b8e004b1e596693981104b6dda
+SHA512: 14daa2943a9224837c7f0c96bcab064ecaeac12cb3f9db1f86fae2f9f56426559115a7ad121c2a5ec04abc6679aa2e1a90c3c7b8ca2f4f608458f2933d5e3f68
+Description: Reforge Joint Tracker C++ SDK
+ Native STL headers, shared library, CMake package files, and a
+ hardware-free driver-loop demo for the Reforge Joint Tracker C++
+ SDK.
