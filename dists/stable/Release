@@ -1,28 +1,28 @@
 Architectures: amd64 arm64
 Codename: stable
 Components: main
-Date: Sat, 10 Oct 2026 06:22:11 +0000
+Date: Sat, 10 Oct 2026 07:31:50 +0000
 Description: Reforge Robotics package repository
 Label: Reforge Robotics
 Origin: Reforge Robotics
 Suite: stable
 MD5Sum:
- 9a1f6713aabe0b525ec9975cc90d1cc5            75078 main/binary-amd64/Packages
- a7bc99e946980f81e7c6ba073cb95116            17924 main/binary-amd64/Packages.gz
- 537bbb2dc36f1bc92e56586511c2056b            15157 main/binary-arm64/Packages
- deab0651de33340fbe2d4ba412601c3d             3676 main/binary-arm64/Packages.gz
+ e01c44184bcbe62f8ae94e93c257a918            78333 main/binary-amd64/Packages
+ 7ed9953e033e62743fcac06b1a403363            18650 main/binary-amd64/Packages.gz
+ 9db93d4ad5f31204d3104099dfa54886            15998 main/binary-arm64/Packages
+ 1bc438863d16429407b6bac80c4dc29e             3855 main/binary-arm64/Packages.gz
 SHA1:
- 36386db0e0c384482d022e87b11526648f03d8f8            75078 main/binary-amd64/Packages
- 08807cf0278ba7ab36e9aa2abf3166ca7845ba4a            17924 main/binary-amd64/Packages.gz
- 68f794c5b642b89a002347c7989f941584253cbe            15157 main/binary-arm64/Packages
- 65343aec69246911b63d036605d8038f9fb118cc             3676 main/binary-arm64/Packages.gz
+ 67ece51064f1c5645aeecfeab3c8c5d44f62381c            78333 main/binary-amd64/Packages
+ 7429e7234ded6e344a6cc7aa74325948a78bcf1d            18650 main/binary-amd64/Packages.gz
+ 6555aa97cc7d263d178c060f8e01e14d6657bbed            15998 main/binary-arm64/Packages
+ c1df2935196bbc4a9b8488f8ae075679f522832e             3855 main/binary-arm64/Packages.gz
 SHA256:
- 23d26674aac1dcecb352259f8ff656c15c136e289e984921d3df18a9a7b87746            75078 main/binary-amd64/Packages
- 6b0ca1478414e546cc2338365d2608fbe756a524126cbcce1ba1b791c3df3cf5            17924 main/binary-amd64/Packages.gz
- cb07d037ed2786991e7198f7184c33d0488ddb164379f4211fbb74a8bb17a5bd            15157 main/binary-arm64/Packages
- 36232bf79327dee7cc9082232eb277d309ca022e27babe0b7a28de8880b9de73             3676 main/binary-arm64/Packages.gz
+ b7f890ce0a9bc14037cf33d7bff8196180d19482609678da1f7f318b56e447eb            78333 main/binary-amd64/Packages
+ 7b406f963cdc4528cd92e9c1dfac75afc4a6ffdcf54c15f30fc8709cf8d8f73d            18650 main/binary-amd64/Packages.gz
+ 691b2dd902fb2fcdc19c76c66c1f3caa836de8cdb6ad92da933b8508bf959b13            15998 main/binary-arm64/Packages
+ 3f82bfe7282ccdacdcf713d7deefdedde0015d71f2b5f9d7abea105fca527096             3855 main/binary-arm64/Packages.gz
 SHA512:
- 78d18cddf995d0b51dc8ced95e5a5c85fa2c40a12b56d87f5e38d5ce622fcf52dde5de5cff920da742fa4e44c1e5c8e6481cd6497e51bf67f78f82aeef8099cf            75078 main/binary-amd64/Packages
- ebc9bdf6b6d79c8728fd409ac319d04e546d383fcb72c182d55a78649196581efd4ee2f65ad83f295f52d4a65ac7cd9d346b7516ed50d7df0e096174b7fe8aeb            17924 main/binary-amd64/Packages.gz
- 6a496a62a2be1dedfd76f5178678c6b5af2f66a9fac46bfdfb10d9f97dcf42685e825702eaa6464614f2f607b4629aea206d4edbea17444ec0f09055da529db7            15157 main/binary-arm64/Packages
- 4c3b568f0583e14f3a17455af31ecf4850f74ea9f2d6e01fdfaedd5ce3dd2e9228d73370d9c45a3f62e18eb736c194e7e573552eaa827372d9384c0a88993dc3             3676 main/binary-arm64/Packages.gz
+ 15a7d4b1419348b466ea79e18e1cc0ab2e27b48b9b2c7da6671bdf3da6a358ae175ad23958e8b91505edca932cc36b377d36626958ed26d1b8a7a598fb38340e            78333 main/binary-amd64/Packages
+ c9f7590edd1b9ca02fdec7c64ec64c6bc6567c866a186a9bf63ad046df1f0f8464adb5909993887e7d6910cf9cc7175c8a9d7d42b654b99c8a17f7890d078874            18650 main/binary-amd64/Packages.gz
+ 890f326e72f35dc5e70d7d99d343c4fc65284ddaf10caa7ea1f7782f4ae285503c7951f61f010ce6ad5945ac8376ed633874dea53857af424782acc94a916a3d            15998 main/binary-arm64/Packages
+ 804815f5d988da1bd25b9e5a55f4dcc9adac1e54b3a3e75cf13ed1484cde3401572e6720b3a6222ec24f1938ec2e2bf53a8a5988b0e80cacdc0c2f5fe73d1a73             3855 main/binary-arm64/Packages.gz
